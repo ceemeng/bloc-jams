@@ -73,7 +73,7 @@
         }
         while (currentParent.className !== targetClass && currentParent.className !== null) {
             currentParent = currentParent.parentElement;
-            console.log("No parent found with that class name")
+            console.log("No parent found with that class name");
         }
         return currentParent;
     }
